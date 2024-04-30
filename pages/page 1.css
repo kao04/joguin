@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    -webkit-font-smoothing: antialiasend;
+}
+.sombra{
+    
+    background-color: rgb(27, 34, 36);
+    max-width: 412px;
+    border-radius: 30px;
+
+}
+body {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 242);
+}
+
+.card {
+    background-color: rgb(69, 149, 175);
+    max-width: 412px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+h1, p {
+    color: rgb();
+}
+
+.subtitulo {
+   margin-bottom: 40px;
+}
+
+.botao{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 32px;
+    
+}
+.botao  a{
+    display: block;
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    background-color: var(--orange);
+    text-align: center;
+    border:none;
+    transition: all ease-in-out;
+    text-decoration: none;
+    background-color: aquamarine;
+
+    transition: all ease-in-out 0.35s;
+}
