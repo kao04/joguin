@@ -17,18 +17,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 200, 190);
+    background-color: #020617;
 }
 
 .card {
-    background-color: rgb(0, 150, 200);
+    background-color: #475569;
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
 }
 
 h1, p {
-    color: rgb();
+    color: #e2e8f0;
 }
 
 .subtitulo {
@@ -55,7 +55,7 @@ h1, p {
     border:none;
     transition: all ease-in-out;
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: #f1f5f9;
 
     transition: all ease-in-out 0.35s;
 }

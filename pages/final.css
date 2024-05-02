@@ -30,12 +30,12 @@ h1, p {
 
 .botao{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 2Sfr);
     margin-bottom: 32px;
     
 }
 .bt{
-    display: block;
+    display: flex;
     width: 100%;
     padding: 13px;
     font-size: 15px;
