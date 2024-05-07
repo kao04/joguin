@@ -34,7 +34,7 @@ h1, p {
     margin-bottom: 32px;
     
 }
-.bt{
+.voltar > a, .feed > a{
     display: flex;
     width: 100%;
     padding: 13px;
@@ -46,18 +46,14 @@ h1, p {
     background-color: var(--orange);
     text-align: center;
     border:none;
-    transition: all ease-in-out;
     text-decoration: none;
+    transition: all ease-in-out;
     background-color: aquamarine;
 
     transition: all ease-in-out 0.35s;
 }
 
-.bt > form{
+.voltar > a, .feed > a{
+    color: #334155;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: none
 }
